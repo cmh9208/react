@@ -11,12 +11,6 @@ const Counter = () => {
     <button onClick={() => {setCount(count - 1)}}>
       클릭버튼-1
     </button>
-    <button onClick={() => {setCount(count + 2)}}>
-      클릭버튼+2
-    </button>
-    <button onClick={() => {setCount(count + 2)}}>
-      클릭버튼-2
-    </button> 
   </>)
 }
 export default Counter
